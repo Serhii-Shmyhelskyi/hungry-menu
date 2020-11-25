@@ -4,6 +4,10 @@
 @import "global";
 
 
+.header {
+    margin-bottom: 100px;
+}
+
 .header__top {
     height: 100vh;
     background-repeat: no-repeat;
@@ -114,13 +118,6 @@
     line-height: 132px;
 }
 
-.heder__title-bottom {
-    border-bottom: 5px solid #E8C300;
-    width: 60px;
-    border-radius: 50px;
-    margin: 0 auto;
-}
-
 .header__box-right {
     position: absolute;    
     right: 5%;
@@ -167,6 +164,130 @@
     text-align: center;
     animation: header-animation-scrol 2s;
 }
+
+.about,
+.team,
+.book,
+.specialties {
+    margin-bottom: 100px;
+}
+
+.about__inner,
+.team__inner,
+.book__inner,
+.specialties__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-bottom {
+    border-bottom: 5px solid #E8C300;
+    width: 60px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.about__box,
+.team__box,
+.specialties__box {
+    max-width: 600px;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.about__box-title,
+.team__box-title,
+.book__box-title,
+.specialties__box-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about__box-bottom,
+.team__box-bottom,
+.book__box-bottom,
+.specialties__box-bottom {
+    margin-bottom: 10px;
+}
+
+.about__box-title--2,
+.team__box-title--2,
+.specialties__box-title--2 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about__box-text,
+.team__box-text,
+.specialties__box-text {
+    font-family: 'OpenSans-Regular';
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    text-align: center;
+}
+
+.content-images {
+    width: 600px;
+    height: 475px;
+}
+
+.about__images {
+    background-image: url(../images/about.png);
+}
+
+.team__top,
+.specialties__top {
+    height: 675px;
+}
+
+.team__text-top,
+.specialties__text-top {
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.team__images {
+    background-image: url(../images/team.png);
+    margin-right: 80px;
+}
+
+.team__box-title,
+.team__box-title--2,
+.team__box-text,
+.specialties__box-title,
+.specialties__box-title--2,
+.specialties__box-text {
+    color: #fff;
+}
+
+.book__box {
+    max-width: 570px;
+}
+
+.book__images {
+    background-image: url(../images/book.png);
+}
+
+.specialties__images {
+    background-image: url(../images/specialties.png);
+    margin-right: 80px;
+}
+
+
+
+
 
 
 
