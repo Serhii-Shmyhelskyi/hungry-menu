@@ -35,3 +35,33 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.my-dots {
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .my-dots li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .my-dots li button {
+    font-size: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.5);
+    &:hover {
+        background-color: #fff;
+    }
+  }
+
+  .my-dots li.slick-active button {
+    background-color: #fff;
+  }
