@@ -60,7 +60,6 @@
 .header__logo-img {
     width: 150px;
     height: 150px;
-    background-image: url(../images/header-logo.png);
 }
 
 .header__inner-center {
@@ -233,12 +232,7 @@
 }
 
 .content-images {
-    width: 600px;
-    height: 475px;
-}
-
-.about__images {
-    background-image: url(../images/about.png);
+    width: 100%;
 }
 
 .team__top,
@@ -257,7 +251,6 @@
 }
 
 .team__images {
-    background-image: url(../images/team.png);
     margin-right: 80px;
 }
 
@@ -337,17 +330,12 @@
     color: #fff;
 }
 
-.book__images {
-    background-image: url(../images/book.png);
-}
-
 .specialties__inner-slik {
     position: relative;
 }
 
 .specialties__images {
     display: inline-block;
-    background-image: url(../images/specialties.png);
     margin: 0 80px;
 }
 
