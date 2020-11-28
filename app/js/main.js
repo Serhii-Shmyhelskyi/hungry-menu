@@ -8,7 +8,7 @@ $(function () {
         slidesToScroll: 1
     });
 
-    $('.private__galery').magnificPopup({
+    $('.private__gallery').magnificPopup({
         delegate: 'a',
         type: 'image',
         tLoading: 'Loading image #%curr%...',
