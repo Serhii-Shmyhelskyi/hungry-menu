@@ -172,7 +172,8 @@
 
 .about__inner,
 .team__inner,
-.book__inner {
+.book__inner,
+.private__inner {
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -224,12 +225,14 @@
 }
 
 .team__top,
-.specialties__top {
+.specialties__top,
+.private__top{
     height: 675px;
 }
 
 .team__text-top,
-.specialties__text-top {
+.specialties__text-top,
+.private__text-top {
     padding-top: 40px;
     font-size: 12px;
     line-height: 14px;
@@ -398,7 +401,24 @@
     font-size: 12px;
     line-height: 18px;
 }   
-    
+
+.private__images-1 {
+    margin-right: 80px;
+}
+
+.private__bottom {
+    font-family: 'OpenSans-Regular';
+    padding: 40px 0;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.private__galery {
+    display: flex;
+    justify-content: center;
+}
     
 
 
