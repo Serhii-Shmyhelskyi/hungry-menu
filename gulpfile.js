@@ -42,6 +42,7 @@ function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.js',
         'node_modules/slick-carousel/slick/slick.js',
+        'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
         'app/js/main.js'
     ])
         .pipe(concat('main.min.js'))
@@ -54,6 +55,7 @@ function styles() {
     return src([
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
+        'node_modules/magnific-popup/dist/magnific-popup.css',
         'app/scss/style.scss'
     ])
         .pipe(scss({ outputStyle: 'compressed' }))
