@@ -166,7 +166,8 @@
 
 .about,
 .team,
-.specialties {
+.specialties,
+.contact {
     margin-bottom: 100px;
 }
 
@@ -429,7 +430,128 @@
     line-height: 0;
 }
 
-    
+.contact__box {
+    max-width: 565px;
+    margin: 0 auto 50px;
+}
+
+.contact__input-inner {
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact__input {
+    appearance: none;
+    width: 419px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    padding: 0 15px;
+    background-color: #E5E5E5;
+    font-family: 'OpenSans-Regular';
+    font-size: 14px;
+    line-height: 19px;
+    text-indent: 20px;
+    color: rgba(51, 51, 51, 0.5);
+    &::placeholder {
+        color: rgba(51, 51, 51, 0.5);
+        font-family: 'OpenSans-Regular';
+        font-size: 14px;
+        line-height: 19px;
+        text-indent: 20px;
+    }
+}
+
+.contact__input-messege {
+    width: 1280px;
+    height: 120px;
+}
+
+.contact__content {
+    color: rgba(51, 51, 51, 0.5);
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__button {
+    width: 640px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #E8C300;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+
+.contact__button-link {
+    color: #fff;
+}
+
+.contact__location{
+    margin-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 0;
+        background-image: url(../images/contact-location.svg);
+    }
+}
+.contact__phone {
+    margin-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 0;
+        background-image: url(../images/contact-phone.svg);
+    }
+}
+.contact__email {
+    margin-right: 50px;
+    padding-left: 20px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 0;
+        background-image: url(../images/contact-email.svg);
+    }
+}
+
+
+.footer {
+    background-color:rgba(0, 0, 0, 0.9);
+}
+
+.footer__text {
+    font-family: 'OpenSans-Regular';
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    padding: 38px 0;
+}
+
+.footer__text-span {
+    font-family:'OpenSans-Bold';
+}
 
 
 
