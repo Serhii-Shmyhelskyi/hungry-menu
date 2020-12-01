@@ -23,6 +23,10 @@ $(function () {
         }
     });
 
+    $('.menu__btn').on('click', function () {
+        $('.menu__list-2').slideToggle();
+    });
+
 })
 
 // Initialize and add the map
