@@ -123,10 +123,16 @@
     top: 10%;
 }
 
+.header__media-img {
+    width: 100%;
+}
 .header__media-facebook,
 .header__media-twitter,
 .header__media-instagram {
     display: block;
+}
+
+.header__media-img {
     line-height: 0;
     margin-bottom: 20px;
     &:hover {
@@ -162,6 +168,10 @@
 .header__buttons-down {
     text-align: center;
     animation: header-animation-scrol 2s;
+}
+
+.header__button-down--img {
+    width: 100%;
 }
 
 .about,
