@@ -1,13 +1,5 @@
 $(function () {
 
-    $('.specialties__inner').slick({
-        arrows: false,
-        dots: true,
-        dotsClass: "my-dots",
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
-
     $('.private__gallery').magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -49,3 +41,10 @@ function initMap() {
         map: map,
     });
 }
+
+var mySwiper = new Swiper('.specialties__container', {
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+})

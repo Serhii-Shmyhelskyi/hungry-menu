@@ -42,12 +42,7 @@
     }
     .specialties__images {
         max-width: 580px;
-    }
-    .specialties__box {
-        width: 580px;
-        top: 12%;
-    }
-    
+    }   
 }
 
 @media (max-width:1300px) {
@@ -61,10 +56,6 @@
     .specialties__images {
         max-width: 550px;
     }
-    .specialties__box {
-        width: 560px;
-    }
-    
 }
 
 @media (max-width:1260px) {
@@ -126,7 +117,8 @@
         margin-right: 60px;
         max-width: 540px;
     }
-    .team__box {
+    .team__box, 
+    .specialties__box {
         max-width: 540px;
     }
     .book__button {
@@ -134,9 +126,6 @@
     }
     .specialties__images {
         max-width: 430px;
-    }
-    .specialties__box {
-        width: 560px;
     }
 }
 
@@ -153,9 +142,6 @@
     }
     .specialties__images {
         max-width: 350px;
-    }
-    .specialties__box {
-        top: 0%;
     }
 }
 
@@ -325,7 +311,7 @@
 }
 
 @media (max-width:860px) {
-    .about__inner, .team__inner, .book__inner, .private__inner {
+    .about__inner, .team__inner, .book__inner, .private__inner, .specialties__inner-slik {
         display: block;
         text-align: center;
     }
@@ -345,10 +331,10 @@
         max-width: 640px;
         margin: 0 auto 30px;
     }
-    .specialties__box {
-        max-width: 640px;
-        margin: 0 auto 50px;
-    }
+    // .specialties__box {
+    //     max-width: 640px;
+    //     margin: 0 auto 50px;
+    // }
     .team__box {
         margin: 0 auto;
     }
@@ -359,27 +345,31 @@
         max-width: 670px;
         margin: 0 auto 30px;
     }
-    .specialties__box {
-        position: relative;
-    }
     .specialties__images {
         margin: 0 50px 35px;
     }
     .specialties__inner-slik {
         text-align: center;
+        margin-bottom: 50px;
     }
     .specialties__images {
         margin: 0;
         max-width: 500px;
     }
-    .specialties__images-img {
-        width: 100%;
-        margin: 0 0 30px -60px;
-    }
+    // .specialties__images-img {
+    //     width: 100%;
+    //     margin: 0 0 30px -60px;
+    // }
     .book__images-img {
         margin: 0 0 0 80px;
     }
-    
+    .specialties__images {
+        margin: 0 auto;
+    }
+    .specialties__box {
+        max-width: 640px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width:790px) {
@@ -442,13 +432,13 @@
     .content-images {
         width: 80%;
     }
-    .specialties__images-img {
-        margin: 0 0 10px 20px;
-    }
-    .specialties__box {
-        max-width: 460px;
-        margin: 0 auto 40px;
-    }
+    // .specialties__images-img {
+    //     margin: 0 0 10px 20px;
+    // }
+    // .specialties__box {
+    //     max-width: 460px;
+    //     margin: 0 auto 40px;
+    // }
     .specialties__time {
         font-size: 10px;
     }
@@ -485,12 +475,12 @@
     .team__images-img {
         margin: 0 60px 30px 0;
     }
-    .specialties__images-img {
-        margin: 0 0 10px 20px;
-    }
-    .specialties__box {
-        max-width: 400px;
-    }
+    // .specialties__images-img {
+    //     margin: 0 0 10px 20px;
+    // }
+    // .specialties__box {
+    //     max-width: 400px;
+    // }
     .header__box-right {
         right: 50%;
         transform: translateX(72%);
@@ -498,9 +488,9 @@
 }   
 
 @media (max-width:420px) {
-    .specialties__box {
-        max-width: 350px;
-    }
+    // .specialties__box {
+    //     max-width: 350px;
+    // }
     .specialties__time {
         display: none;
     }
@@ -521,9 +511,9 @@
         right: 12px;
         top: 35%;
     }
-    .specialties__box {
-        max-width: 330px;
-    }
+    // .specialties__box {
+    //     max-width: 330px;
+    // }
     
 }
 
@@ -541,19 +531,19 @@
     .team__images-img {
         margin: 0 45px 30px 0;
     }
-    .specialties__images-img {
-        margin: 0 0 10px 20px;
-    }
-    .specialties__box {
-        max-width: 310px;
-    }
+    // .specialties__images-img {
+    //     margin: 0 0 10px 20px;
+    // }
+    // .specialties__box {
+    //     max-width: 310px;
+    // }
 }
 
-@media (max-width:340px) {
-    .specialties__box {
-        max-width: 290px;
-    }
-}
+// @media (max-width:340px) {
+//     .specialties__box {
+//         max-width: 290px;
+//     }
+// }
 
 
 @media (max-width:305px) {
@@ -573,9 +563,9 @@
     .menu__btn {
         right: 15px;
     }
-    .specialties__box {
-        max-width: 280px;
-    }
+    // .specialties__box {
+    //     max-width: 280px;
+    // }
 }
 
 
