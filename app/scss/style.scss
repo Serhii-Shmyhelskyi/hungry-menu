@@ -21,8 +21,17 @@
     margin-bottom: 210px;
 }
 
-.menu__list-link {
+.menu__list-item {
     margin: 40px;
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.menu__list-link {
     font-size: 12px;
     line-height: 18px;
     &:hover {
