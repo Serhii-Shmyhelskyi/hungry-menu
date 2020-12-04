@@ -7,6 +7,12 @@
     }
 }
 
+@media (max-width:1369px) {
+    .private__gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
 @media (max-width:1366px) {
     .header__inner-menu {
         margin-bottom: 100px;
@@ -43,6 +49,12 @@
     .header__logo::after {
         width: 380px;
         right: -418px;
+    }
+}
+
+@media (max-width:1289px) {
+    .private__gallery {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     }
 }
 
@@ -83,6 +95,9 @@
     .header, .about, .team, .specialties, .contact, .menu {
         margin-bottom: 70px;
     }
+    .private__gallery {
+        margin: 0 auto 70px; 
+    }
     .box-title {
         font-size: 34px;
         line-height: 38px;
@@ -94,6 +109,12 @@
     .about__box-text, .team__box-text, .specialties__box-text {
         font-size: 16px;
         line-height: 25px;
+    }
+}
+@media (max-width:1209px) {
+    .private__gallery {
+        height: 640px;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     }
 }
 
@@ -129,6 +150,13 @@
     .menu__box-title--content {
         font-size: 14px;
         line-height: 16px;
+    }
+}
+
+@media (max-width:1129px) {
+    .private__gallery {
+        height: 580px;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
 }
 
@@ -202,6 +230,10 @@
         font-size: 14px;
         line-height: 22px;
     }  
+    .private__gallery {
+        height: 560px;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    }
 }
 
 @media (max-width:1025px) {
@@ -225,8 +257,11 @@
     .team__images {
         margin-right: 50px;
     } 
+    .private__gallery {
+        height: 500px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
 }
-
 
 @media (max-width:950px) {
     .header__inner-menu {
@@ -319,6 +354,13 @@
     }
 }
 
+@media (max-width:890px) {
+    .private__gallery {
+        height: 500px;
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    }
+}
+
 @media (max-width:860px) {
     .about__inner, .team__inner, .book__inner, .private__inner, .specialties__inner-slik {
         display: block;
@@ -326,9 +368,7 @@
     }
     .content-images {
         width: 70%;
-    }
-    .content-images {
-        margin: 0 0 0 118px;
+        margin: 0 0 30px 0;
     }
     .team__images-img {
         margin: 0 118px 30px 0;
@@ -370,6 +410,13 @@
     }
 }
 
+@media (max-width:810px) {
+    .private__gallery {
+        height: 450px;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+}
+
 @media (max-width:790px) {
    .header__title {
         font-size: 50px;
@@ -385,6 +432,34 @@
     }
     .header__box-left {
         left: -19%;
+    }
+}
+
+@media (max-width:730px) {
+    .private__gallery {
+        height: 450px;
+        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    }
+    .private__gallery-box:nth-child(6) {
+        display: none;
+    }
+    .private__gallery-box:nth-child(7) {
+        display: none;
+    }
+    .private__gallery-box:nth-child(8) {
+        display: none;
+    }
+    .private__gallery-box:nth-child(5) {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+}
+
+@media (max-width:690px) {
+    .private__gallery {
+        height: 400px;
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
     }
 }
 
@@ -413,7 +488,7 @@
         margin-bottom: 0;
     }
     .content-images {
-        margin: 0 0 0 85px;
+        margin: 0 0 30px 0;
     }
     .team__images-img {
         margin: 0 85px 30px 0;
@@ -435,6 +510,43 @@
     }
     .specialties__time {
         font-size: 10px;
+    }
+    .private__bottom {
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    .private__gallery {
+        height: 700px;
+        grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+    }
+    .private__gallery-box:nth-child(1) {
+        grid-column: span 4;
+    }
+    
+    .private__gallery-box:nth-child(5) {
+        grid-column: span 4;
+    }
+    .private__gallery-box:nth-child(2) {
+        grid-column: span 4;
+    }
+    .private__gallery-box:nth-child(4) {
+        grid-column: span 4;
+    }
+}
+
+@media (max-width:610px) {
+    .private__gallery {
+        height: 550px;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    }
+}
+
+@media (max-width:490px) {
+    .private__gallery {
+        height: 500px;
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
     }
 }
 
@@ -464,7 +576,7 @@
         margin-bottom: 40px;
     }
     .content-images {
-        margin: 0 0 0 60px;
+        margin: 0 0 30px 0;
     }
     .team__images-img {
         margin: 0 60px 30px 0;
@@ -476,11 +588,37 @@
         right: 50%;
         transform: translateX(72%);
     }
+    .menu__content-box {
+        width: 300px;
+    }
 }   
+
 
 @media (max-width:420px) {
     .specialties__time {
         display: none;
+    }
+}
+
+@media (max-width:410px) {
+    .private__gallery {
+        height: 700px;
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    }
+    .private__gallery-box:nth-child(1) {
+        grid-column: span 3;
+    }
+    .private__gallery-box:nth-child(5) {
+        grid-column: span 3;
+    }
+    .private__gallery-box:nth-child(2) {
+        grid-column: span 3;
+    }
+    .private__gallery-box:nth-child(3) {
+        grid-column: span 6;
+    }
+    .private__gallery-box:nth-child(4) {
+        grid-column: span 3;
     }
 }
 
@@ -510,7 +648,7 @@
         margin: 10px 10px 0 10px;
     }
     .content-images {
-        margin: 0 0 0 45px;
+        margin: 0 0 20px 45px;
     }
     .team__images-img {
         margin: 0 45px 30px 0;
@@ -518,7 +656,26 @@
     .specialties__images-img {
         margin: 0 0 30px -45px;
     }
+    .menu__position-link {
+        font-size: 11px;
+    }
 }
+
+@media (max-width:330px) {
+    .private__gallery-box:nth-child(1) {
+        display: none;
+    }
+    .private__gallery-box:nth-child(5) {
+        display: none;
+    }
+    .private__gallery-box:nth-child(2) {
+        grid-column: span 6;
+    }
+    .private__gallery-box:nth-child(4) {
+        grid-column: span 6;
+    }
+}
+
 
 @media (max-width:305px) {
     .header__title {
@@ -536,6 +693,20 @@
     }
     .menu__btn {
         right: 15px;
+    }
+    .menu__position-link {
+        font-size: 9px;
+        padding: 0 5px;
+    }
+    .menu__content-box {
+        width: 278px;
+    }
+    .menu__box-title--content {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .menu__box-text {
+        font-size: 10px;
     }
 }
 
