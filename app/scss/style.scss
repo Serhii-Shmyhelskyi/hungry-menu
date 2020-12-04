@@ -21,17 +21,14 @@
     margin-bottom: 210px;
 }
 
-.menu__list-item {
-    margin: 40px;
-    &:first-child {
-        margin-left: 0;
-    }
-    &:last-child {
-        margin-right: 0;
-    }
+.menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu__list-link {
+    margin: 40px;
     font-size: 12px;
     line-height: 18px;
     &:hover {
@@ -427,7 +424,7 @@
     flex-wrap: wrap;
 }
 
-.menu__box-title {
+.menu__box-title--content {
     font-family: 'Banny-light';
     font-size: 18px;
     line-height: 20px;
