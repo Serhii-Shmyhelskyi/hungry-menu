@@ -338,17 +338,13 @@
 }
 
 .book__button {
-    width: 565px;
+    width: 570px;
     height: 60px;
-    margin: 0 auto;
+    margin: 0 5px;
     border-radius: 5px;
     background-color: #E8C300;
     text-align: center;
     line-height: 60px;
-    color: #fff;
-}
-
-.book__button-link {
     color: #fff;
 }
 
@@ -515,7 +511,7 @@
     max-width: 1290px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -561,14 +557,11 @@
 .contact__button {
     width: 640px;
     height: 60px;
+    font-size: 18px;
     border-radius: 5px;
     background-color: #E8C300;
     text-align: center;
     line-height: 60px;
-    color: #fff;
-}
-
-.contact__button-link {
     color: #fff;
 }
 
