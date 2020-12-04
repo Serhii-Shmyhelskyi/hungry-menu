@@ -551,6 +551,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .contact__button {
@@ -566,6 +567,7 @@
 
 .contact__location{
     margin-right: 20px;
+    margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
     &::before {
@@ -579,6 +581,7 @@
 }
 .contact__phone {
     margin-right: 20px;
+    margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
     &::before {
@@ -592,6 +595,7 @@
 }
 .contact__email {
     margin-right: 50px;
+    margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
     &::before {
@@ -622,11 +626,6 @@
 
 .footer__text-span {
     font-family:'OpenSans-Bold';
-}
-
-
-.contact {
-    display: none;
 }
 
 
