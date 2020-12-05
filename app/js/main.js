@@ -44,6 +44,7 @@ function initMap() {
 
 var mySwiper = new Swiper('.specialties__container', {
     speed: 1500,
+    initialSlide: 1,
     autoplay: {
         delay: 3000
     },
