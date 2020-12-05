@@ -43,6 +43,10 @@ function initMap() {
 }
 
 var mySwiper = new Swiper('.specialties__container', {
+    speed: 1500,
+    autoplay: {
+        delay: 3000
+    },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
